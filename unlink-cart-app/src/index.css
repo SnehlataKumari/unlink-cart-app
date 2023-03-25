@@ -1,0 +1,152 @@
+header {
+  border-bottom: 1px solid;
+}
+
+
+
+.active-nav {
+  color: blue;
+}
+
+.grid-container {
+  /* display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px; */
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  padding: 10px;
+  position: absolute;
+  left: 10%;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  background: gray;
+}
+
+.grid-item .discount-percent {
+  float: left;
+  background: white;
+  padding: 5px;
+  margin-top: 0px;
+}
+
+.thumbnail img {
+  width: 330px;
+  height: 200px;
+}
+
+.price {
+  text-decoration: line-through;
+}
+
+.card-footer {
+  background: aliceblue;
+}
+
+.product-title {
+  text-align: start;
+  padding: 10px;
+  margin-bottom: 0px;
+
+}
+
+.product-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 10px;
+}
+
+.price-details {
+  text-align: start;
+  padding-left: 1px;
+  display: flex;
+}
+
+.price-details h2:nth-child(2) {
+  padding-left: 10px
+}
+
+.orders {
+  margin: auto;
+  width: 75%;
+  border: 3px solid gray;
+  padding: 10px;
+}
+
+.list-items {
+  background: gray;
+  color: white;
+  padding: 10px;
+}
+
+td button {
+  border: none;
+  padding: 13px;
+}
+
+.qty {
+  border: none;
+  padding: 13px;
+}
+
+.qty-header {
+  text-align: center;
+
+}
+
+.price-header {
+  text-align: end;
+}
+
+table {
+  width: 100%;
+  border-bottom: 1px solid;
+}
+
+.invoice-total {
+  border: 1px solid;
+  padding: 10px;
+}
+
+.bg-secondary {
+  background: gray;
+}
+
+.btn {
+  background: gray;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card--button--wrapper {
+  display: flex;
+  padding: 10px;
+}
+
+.nav-item {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-item.active {
+  color: blue;
+}
+
+.nav-header {
+  display: flex;
+  padding: 10px;
+  gap: 10px
+}
+
+.cart--button-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
